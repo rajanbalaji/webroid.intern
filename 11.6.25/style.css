@@ -1,0 +1,78 @@
+ body {
+      background-color: #5ecdc6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:100vh;
+    }
+
+    .card {
+      background: #f7f5f0;
+      border-radius: 15px;
+      width: 300px;
+    }
+
+    .first {
+      background: #9b63cd;
+      padding: 20px;
+      position: relative;
+    }
+
+    .money {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .name {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .icons {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 18px;
+    }
+
+    .arrow {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      font-size: 20px;
+    }
+
+    .dots {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .last {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 20px;
+      height: 20px;
+      background-color: #82540c;
+      border-radius: 4px;
+    }
+
+    .title {
+      flex-grow: 1;
+      margin-left: 10px;
+      font-size: 14px;
+    }
+
+    .view-button {
+      background-color: #000;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+    }
